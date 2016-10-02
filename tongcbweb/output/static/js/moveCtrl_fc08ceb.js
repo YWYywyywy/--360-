@@ -1,0 +1,1 @@
+define(function(){return{move_Ctrl:function(){for(var e=-1200,t=document.getElementById("slide_list"),n=document.getElementsByClassName("ctrl"),l=0;5>l;l++)!function(l){n[l].addEventListener("click",function(){t.style.left=(l+1)*e+"px",console.log(t.style.left);for(var o=0;o<n.length;o++)n[o].style.background="#eee";this.style.background="black"})}(l)}}});

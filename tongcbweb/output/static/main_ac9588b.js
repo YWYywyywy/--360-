@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"lib",paths:{jquery:"../js/jquery",shops:"../js/shops",lunbo:"../js/lunbo",hide_menuOut:"../js/hide_menuOut",moveCtrl:"../js/moveCtrl",handledata:"../js/handledata",gotop:"../js/gotop"}}),require(["shops","lunbo","hide_menuOut","moveCtrl","gotop"],function(o,e,s,u,t){o.listShop(),e.lun_bo(),s.hideMenuOut(),u.move_Ctrl(),t.goTop()});
